@@ -11,9 +11,9 @@ pipeline{
     }
 
     environment{
-        DOCKER_IMAGE = "dhruvamaheshwari47/jenkins_etp_java_try",
-        DOCKER_TAG = 'latest',
-        CONTAINER_NAME = 'etp_java_try',
+        DOCKER_IMAGE = "dhruvamaheshwari47/jenkins_etp_java_try"
+        DOCKER_TAG = 'latest'
+        CONTAINER_NAME = 'etp_java_try'
         PORT = 8080
     }
 
