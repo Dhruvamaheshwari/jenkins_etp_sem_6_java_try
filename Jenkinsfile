@@ -65,7 +65,7 @@ pipeline{
         stage("Re-Run the container")
         {
             steps{
-                bat "docker run -d -p ${PORT}:8080 --name ${ CONTAINER_NAME} ${DOCKER_IMAGE}:${DOCKER_TAG}"
+                bat "docker run -d -p ${PORT}:8080 --name ${CONTAINER_NAME} ${DOCKER_IMAGE}:${DOCKER_TAG}"
             }
         }
     }
